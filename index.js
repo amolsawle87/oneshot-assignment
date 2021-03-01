@@ -19,7 +19,7 @@ application.engine("hbs", expressHandlerbars ({
     layoutsDir : __dirname + "/views/layouts"
 }));
 
-application.set("views engine", "hbs")
+application.set("view engine", "hbs");
 
 
 application.get("/", (req, res)=>{
